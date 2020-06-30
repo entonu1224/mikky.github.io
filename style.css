@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #494747a9;
+}
+/* container element*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+
+}
+
+.container1{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #494747a9;
+   
+   
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+.botton_1{
+    height: 38px;
+    background-color:#1a4fb1;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+
+}
+/* side bar in contact page although define as global property and value*/
+.dark{
+    padding: 15px;
+    background:#35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#main1{
+    background-color: white;
+}
+
+
+/* show case area*/
+
+#showcase{
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url(second.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 55%;
+    text-align: center;
+    border-top: #1a4fb1 3px solid;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#newslatter{
+    padding: 15px;
+    color: #ffffff;
+    background-color:#35424a;
+}
+#newslatter h1{
+    float: left;
+}
+#newslatter form{
+    float: right;
+    margin-top: 12px;
+}
+#newslatter input[ type="email"]{
+    padding: 4px;
+    height: 30px;
+    width: 300px;
+
+}
+#boxess{
+    margin-top: 20px;
+    margin-left: 12%;
+}
+/* boxess area */
+#boxess .box{
+    float: left;
+    text-align: center;
+    padding:4%;
+    width: 3opx;   
+}
+#boxess .box img{
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+
+}
+
+   
+
+
+
+/* header element*/
+header a{
+    margin-top: 5px;;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+   
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+ul{
+    margin-top: 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 0px;
+}
+header .helight, header .current a{
+    color: #1a4fb1;
+    font-weight: bold;
+    border-top: 3px yellow solid;
+    border-right: 3px red solid;
+    border-left: 3px red solid;
+    padding: 4px;
+ 
+}
+header a.hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/* side bar in contact page*/
+aside{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    display: flex;
+}
+#maincore{
+    float: left;
+    width: 55%;
+}
+
+
+/* services on servicefile */
+.services ul li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 3px; 
+    margin-bottom: 5px;
+    background-color: #cccccc; 
+    
+}
+.services ul li img{
+    width: 100%;
+    height: auto;
+}
+.services1{
+    background-color: #793838;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+}
